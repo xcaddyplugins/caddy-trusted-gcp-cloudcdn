@@ -27,7 +27,7 @@ $ xcaddy build --with github.com/xcaddyplugins/caddy-trusted-gcp-cloudcdn
 
 ```Caddyfile
 trusted_proxies gcp_cloudcdn {
-    interval <duration>
+	interval <duration>
 }
 ```
 
@@ -37,7 +37,7 @@ trusted_proxies gcp_cloudcdn {
 
 ```Caddyfile
 trusted_proxies gcp_cloudcdn {
-    interval 1d
+	interval 1d
 }
 ```
 

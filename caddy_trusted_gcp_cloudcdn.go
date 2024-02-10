@@ -17,8 +17,12 @@ func init() {
 	caddy.RegisterModule(CaddyTrustedGCPCloudCDN{})
 }
 
+// The module auto trusted_proxies `GCP CloudCDN EDGE servers` from `_cloud-eoips.googleusercontent.com` TXT record
+// Doc: https://cloud.google.com/cdn/docs/set-up-external-backend-internet-neg
+// Range from: _cloud-eoips.googleusercontent.com
 type CaddyTrustedGCPCloudCDN struct {
-	Interval caddy.Duration `json:"interval,omitempty"` // Update Interval. if emp
+	// Interval to update the trusted proxies list. default: 1d
+	Interval caddy.Duration `json:"interval,omitempty"`
 	ranges   []netip.Prefix
 	ctx      caddy.Context
 	lock     *sync.RWMutex

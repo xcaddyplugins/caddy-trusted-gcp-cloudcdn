@@ -1,4 +1,4 @@
-[![Build Status](https://github.com/xcaddyplugins/caddy-trusted-gcp-cloudcdn/workflows/build/badge.svg)](https://github.com/xcaddyplugins/caddy-trusted-gcp-cloudcdn)
+[![Build Status](https://github.com/xcaddyplugins/caddy-trusted-gcp-cloudcdn/workflows/update/badge.svg)](https://github.com/xcaddyplugins/caddy-trusted-gcp-cloudcdn)
 [![Licenses](https://img.shields.io/github/license/xcaddyplugins/caddy-trusted-gcp-cloudcdn)](LICENSE)
 [![donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.buymeacoffee.com/illi)
 

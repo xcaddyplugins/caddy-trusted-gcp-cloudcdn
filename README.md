@@ -1,3 +1,7 @@
+[![Build Status](https://github.com/xcaddyplugins/caddy-trusted-gcp-cloudcdn/workflows/build/badge.svg)](https://github.com/xcaddyplugins/caddy-trusted-gcp-cloudcdn)
+[![Licenses](https://img.shields.io/github/license/xcaddyplugins/caddy-trusted-gcp-cloudcdn)](LICENSE)
+[![donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.buymeacoffee.com/illi)
+
 # trusted_proxies GCP Cloud CDN module for `Caddy`
 
 The module auto trusted_proxies `GCP CloudCDN EDGE servers` from `_cloud-eoips.googleusercontent.com` TXT record
